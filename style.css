@@ -23,24 +23,19 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   color: white;
-  border: solid red 2px;
 }
-.container {
-  border: solid blue 2px;
-  /* padding: 3em; */
-}
+
 .logo {
   padding-top: 3em;
-  padding-left: 7em;
-  margin-right: 8em;
+  margin-left: 3em;
 }
 
 .hero__title {
   border: 2px solid white;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  margin: 2em 14em 0 2em;
+  margin: 2em 9em 1em 1em;
   padding: 0.5em 0 0.5em 0.5em;
 }
 .hero__image {
@@ -51,35 +46,84 @@ body {
 }
 
 .top {
-  border: solid 2px violet;
+  display: flex;
 }
 
 .hero__menu {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-end;
+  gap: 2em;
   color: white;
   text-decoration: none;
-  border: solid yellow 3px;
-  margin-left: 50em;
-}
-
-.menu {
-  padding: 0.5em;
-  align-self: flex-start;
+  margin-left: 35rem;
 }
 
 .first-section {
+  max-width: 1400px;
   display: flex;
-  border: solid red 2px;
+  margin: 8em 8em 8em 8em;
 }
-.main-text {
-  border: solid yellowgreen 2px;
+.main__image {
+  width: 50%;
+  max-width: 100%;
+}
+.main__title {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 
+.main__text {
+  padding: 2em 0em 2em 3em;
+  margin-top: 10em;
+  background-color: white;
+  /* border: solid red 2px; */
+}
+
+.main__p {
+  color: grey;
+  font-size: 1rem;
+}
+
+.second-section {
+  margin: 8em;
+}
+
+.second__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second__title {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.button {
+  justify-content: end;
+  font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 0.5em 2em;
+  background-color: white;
+  border: solid 1px black;
+}
 .grid {
   display: grid;
-
   grid-template-columns: repeat(4, 1fr);
+  gap: 1.5em;
+  position: relative;
+}
+
+.grid__title {
+  font-size: 1.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+#soccer {
+  position: absolute;
+  top: 2em;
 }
