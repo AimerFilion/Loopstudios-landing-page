@@ -86,7 +86,8 @@ body {
 }
 
 .second-section {
-  margin: 8em;
+  margin: 7em 2em 8em 6em;
+  max-width: 1400px;
 }
 
 .second__top {
@@ -123,7 +124,61 @@ body {
   text-transform: uppercase;
 }
 
+#earth {
+  position: absolute;
+  top: 16em;
+  left: 2em;
+  color: white;
+}
+#arcade {
+  position: absolute;
+  top: 16em;
+  color: white;
+  left: 13em;
+}
 #soccer {
   position: absolute;
-  top: 2em;
+  top: 16em;
+  left: 24em;
+  color: white;
+}
+#above {
+  position: absolute;
+  top: 36em;
+  color: white;
+}
+#borealis {
+  position: absolute;
+  top: 36em;
+  color: white;
+  left: 12em;
+}
+#grid {
+  position: absolute;
+  top: 16em;
+  left: 1em;
+  color: white;
+}
+#curiosity {
+  position: absolute;
+  top: 36em;
+  left: 24em;
+  color: white;
+}
+#fisheye {
+  position: absolute;
+  top: 36em;
+  left: 36em;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+}
+.footer__menu {
+  color: white;
+}
+
+.rights {
+  color: grey;
 }
