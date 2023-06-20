@@ -76,6 +76,10 @@ a:hover {
   margin-left: 35rem;
 }
 
+.hamburger {
+  opacity: 0;
+}
+
 .first-section {
   max-width: 1400px;
   display: flex;
@@ -235,4 +239,32 @@ footer {
 .rights {
   color: grey;
   margin-left: 31em;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0 auto;
+    padding: 0;
+    width: 375px;
+    max-width: 375px;
+  }
+  .hero__image {
+    background-image: url(./images/mobile/image-hero.jpg);
+    width: 100%;
+  }
+  .hero__title {
+    font-size: 2rem;
+    border: solid 2px white;
+    margin: 4.5em 0.5em 1em 1em;
+    padding: 0.5em 3em 0.5em 0.8em;
+  }
+  .logo {
+  }
+  .hamburger {
+    opacity: 100;
+  }
+  .hamburger__nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
