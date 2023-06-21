@@ -31,14 +31,14 @@
     <div class="hero">
       <div class="hero__image">
         <div class="top">
-          <div class="nav-mobile">
-            <img class="logo" src="./images/logo.svg" alt="logo" />
-            <img
-              class="hamburger"
-              src="./images/icon-hamburger.svg"
-              alt="menu-mobile"
-            />
-          </div>
+          <!-- <div class="nav-mobile"> -->
+          <img class="logo" src="./images/logo.svg" alt="logo" />
+          <img
+            class="hamburger"
+            src="./images/icon-hamburger.svg"
+            alt="menu-mobile"
+          />
+          <!-- </div> -->
           <div class="hero__menu">
             <a class="menu">About</a>
             <a class="menu">Careers</a>
@@ -54,7 +54,13 @@
     <main class="main">
       <section class="first-section">
         <div class="main__image">
-          <img src="./images/desktop/image-interactive.jpg" />
+          <img src="./images/desktop/image-interactive.jpg" alt="interactive" />
+        </div>
+        <div class="mobile-interactive">
+          <img
+            src="./images/mobile/image-interactive.jpg"
+            alt="mobile-interactive"
+          />
         </div>
         <div class="main__text">
           <h2 class="main__title">The leader in interactive VR</h2>
@@ -69,14 +75,69 @@
       <section class="second-section">
         <div class="second__top">
           <h1 class="second__title">Our creations</h1>
+          <div class="mobile-images">
+            <div class="mobile-earth">
+              <h1 class="mobile-title">deep earth</h1>
+              <img
+                src="./images/mobile/image-deep-earth.jpg"
+                alt="deep-earth"
+              />
+            </div>
+            <div class="mobile-arcade">
+              <h1 class="mobile-title" id="mobile-arcade">night arcade</h1>
+              <img
+                src="./images/mobile/image-night-arcade.jpg"
+                alt="night-arcade"
+              />
+            </div>
+            <div class="mobile-soccer">
+              <h1 class="mobile-title">soccer team</h1>
+              <img
+                src="./images/mobile/image-soccer-team.jpg"
+                alt="soccer-team"
+              />
+            </div>
+            <div class="mobile-grid">
+              <h1 class="mobile-title">the grid</h1>
+              <img src="./images/mobile/image-grid.jpg" alt="grid" />
+            </div>
+            <div class="mobile-above">
+              <h1 class="mobile-title">From above</h1>
+              <img
+                src="./images/mobile/image-from-above.jpg"
+                alt="from above"
+              />
+            </div>
+            <div class="mobile-borealis">
+              <h1 class="mobile-title">pocket borealis</h1>
+              <img
+                src="./images/mobile/image-pocket-borealis.jpg"
+                alt="pocket borealis"
+              />
+            </div>
+            <div class="curiosity">
+              <h1 class="mobile-title">the curiosity</h1>
+              <img
+                src="./images/mobile/image-curiosity.jpg"
+                alt="the curiosity"
+              />
+            </div>
+            <div class="mobile-fisheye">
+              <h1 class="mobile-title">make it fisheye</h1>
+              <img
+                src="./images/mobile/image-fisheye.jpg"
+                alt="make it fisheye"
+              />
+            </div>
+          </div>
           <button class="button">See all</button>
         </div>
         <div class="grid">
-          <div class="Deep earth">
+          <div class="earth">
             <h1 class="grid__title" id="earth">Deep earth</h1>
             <img src="images/desktop/image-deep-earth.jpg" alt="deep-earth" />
           </div>
-          <div class="Night Arcade">
+          <div class="arcade">
             <h1 class="grid__title" id="arcade">Night Arcade</h1>
             <img
               src="images/desktop/image-night-arcade.jpg"
@@ -84,36 +145,36 @@
               title="Night arcade"
             />
           </div>
-          <div class="Soccer Team VR">
+          <div class="soccer">
             <h1 class="grid__title" id="soccer">Soccer team VR</h1>
             <img
               src="./images/desktop/image-soccer-team.jpg"
               alt="soccer-team"
             />
           </div>
-          <div class="The-grid">
+          <div class="the-grid">
             <h1 class="grid__title" id="grid">The grid</h1>
             <img src="./images/desktop/image-grid.jpg" alt="the-grid" />
           </div>
-          <div class="From up above vr">
+          <div class="from-above">
             <h1 class="grid__title" id="above">From up above vr</h1>
             <img
               src="./images/desktop/image-from-above.jpg"
               alt="from-up-above-vr"
             />
           </div>
-          <div class="Pocket borealis">
+          <div class="pocket-borealis">
             <h1 class="grid__title" id="borealis">Pocket borealis</h1>
             <img
               src="./images/desktop/image-pocket-borealis.jpg"
               alt="pocket-borealis"
             />
           </div>
-          <div class="The curiosity">
+          <div class="the-curiosity">
             <h1 class="grid__title" id="curiosity">The curiosity</h1>
             <img src="./images/desktop/image-curiosity.jpg" alt="curiosity" />
           </div>
-          <div class="Make it fisheye">
+          <div class="fisheye">
             <h1 class="grid__title" id="fisheye">Make it fisheye</h1>
             <img src="./images/desktop/image-fisheye.jpg" alt="fisheye" />
           </div>
@@ -124,6 +185,13 @@
       <div class="footer">
         <div class="footer__top">
           <img class="footer__image" src="./images/logo.svg" />
+          <div class="mobile-social">
+            <p>About</p>
+            <p>Careers</p>
+            <p>Events</p>
+            <p>Products</p>
+            <p>Support</p>
+          </div>
           <div class="footer__social">
             <img src="./images/icon-facebook.svg" />
             <img src="./images/icon-twitter.svg" />
